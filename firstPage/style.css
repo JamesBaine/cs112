@@ -1,0 +1,53 @@
+body {
+    background-color: slategrey;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    font-size: 20px;
+    margin: 50px 100px 0 100px;
+}
+
+.nav_list_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_list_link:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 100px;
+    background-color: #fff;
+    min-height: 500px;
+    padding: 40px;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer_link:hover {
+    color: red;
+}
